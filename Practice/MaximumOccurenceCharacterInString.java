@@ -23,7 +23,7 @@ public class Main
         }
         
         int min = Integer.MIN_VALUE;
-        char ch = Character.MIN_VALUE; // this is a new concept
+        char ch = Character.MIN_VALUE; // this is a new concept - Nothing but empty character literal
         for(Character ele: map.keySet())
         {
             if(map.get(ele) > min)

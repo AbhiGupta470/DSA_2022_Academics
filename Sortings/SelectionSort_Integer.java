@@ -1,4 +1,4 @@
-// Selection Sort
+// Selection Sort - for integer values
 
 public class Main 
 {

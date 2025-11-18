@@ -1,0 +1,24 @@
+// Using Brute force approach that means nested loops and repetitive comparisons which are not required
+public class Main
+{
+	public static void main(String[] args) {
+	 int[] arr = {1,2,6,9,12,15,17};   
+	 int target = 24;
+	 
+	 // Brute Force 
+	 boolean flag = false;
+	 for(int i = 0; i<arr.length; i++)
+	 {
+	     for(int j = i+1; j<arr.length; j++)
+	     {
+	         if(arr[i]+arr[j] == target)
+	         {
+	             flag = true;
+	             System.out.print("The two elements are: " + arr[i] + " and " + arr[j]);
+	         }
+	     }
+	 }
+	 if(!flag)
+	 System.out.print("The two elements are not found");
+	}
+}
